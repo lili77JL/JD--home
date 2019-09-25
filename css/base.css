@@ -1,0 +1,431 @@
+.w {
+    width: 1190px;
+    margin: auto;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.clearfix:before,.clearfix:after {
+    content: " " ;
+    display: table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix{
+    *zoom:1;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?c7dki6');
+    src:  url('../fonts/icomoon.eot?c7dki6#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?c7dki6') format('truetype'),
+    url('../fonts/icomoon.woff?c7dki6') format('woff'),
+    url('../fonts/icomoon.svg?c7dki6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #f6f6f6;
+}
+.J_event {
+    background-color: #5175f2;
+}
+.J_event a {
+    display: block;
+    height: 80px;
+    background: url("../images/top.jpg") no-repeat;
+    position: relative;
+}
+.J_event a li {
+    width: 25px;
+    height: 25px;
+    background: rgba(0, 0, 0, .4) ;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-family: icomoon;
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+.shortcut {
+    height: 30px;
+    background-color: #E3E4E5;
+    border-bottom: 1px solid #dddddd;
+    color: #9D9D9D;
+    font-size: 12px;
+    line-height: 30px;
+}
+.shortcut a {
+    text-decoration: none;
+    color: #9D9D9D;
+    font-size: 12px;
+}
+.shortcut a:hover {
+    color: #c81623;
+}
+.shortcut .fr li {
+    float: left;
+}
+.shortcut .fl li {
+    margin-left: 200px;
+}
+.pos {
+    font-family: icomoon;
+    font-size: 14px;
+    color: #f10215;
+    font-style: normal;
+}
+.spacer {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 10px;
+}
+.dropdown {
+    padding-right: 15px;
+    position: relative;
+}
+.dropdown i {
+    font-family: icomoon;
+    font-style: normal;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+.style-red {
+    color: #f10215!important;
+}
+.erweima {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 35px;
+    left: -8px;
+}
+.header {
+    height: 140px;
+    position: relative;
+}
+.inner {
+    height: 140px;
+    position: relative;
+ /*   background-color: pink;*/
+}
+.logo {
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background-color: red;
+    box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+}
+.logo h1 {
+    margin: 0;
+}
+.logo a {
+    display: block;
+    width: 190px;
+    height: 170px;
+    background: url("../images/京东logo.png") no-repeat 0 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.search {
+    height: 35px;
+    width: 550px;
+    position: absolute;
+    top: 25px;
+    left: 320px;
+}
+.search input {
+    width: 493px;
+    height: 33px;
+    border: 1px solid #f10215;
+    outline: 0;
+    padding: 0 0 0 5px;
+    float: left;
+}
+.search button {
+    width: 50px;
+    height: 35px;
+    background-color: #f10215;
+    border: 0;
+    padding: 0;
+    float: left;
+    cursor: pointer;
+}
+.search button i {
+    font-family: icomoon;
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 38px;
+}
+.search em {
+    width: 19px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 65px;
+    background: url("../images/sprite（照相机，小狗）.png") no-repeat ;
+    cursor: pointer;
+}
+.search em:hover{
+    background-position: -30px 0;
+}
+.hotwords {
+    position: absolute;
+    top: 70px;
+    left: 320px;
+}
+.hotwords a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #9D9D9D;
+   margin-right: 8px;
+}
+.hotwords a:hover {
+    color: #f10215;
+}
+.car {
+    width: 188px;
+    height: 33px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    text-align: center;
+}
+.car a {
+    font-size: 12px;
+    color: #f10215;
+    line-height: 33px;
+}
+.car i {
+    font-family: icomoon;
+    font-style: normal;
+    color: #f10215;
+}
+.car s {
+    height: 16px;
+    background-color: #f10215;
+    color: #ccc;
+    line-height: 16px;
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+    text-decoration: none;
+    padding: 0 3px;
+    border-radius: 7px;
+}
+.navitems {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+.navitems ul {
+    float: left;
+}
+.navitems li {
+    float: left;
+}
+.navitems li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.navitems a:hover {
+    color: #f10215;
+}
+.navitems .spacer {
+    float: left;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 15px -10px 0 20px;
+}
+.footer {
+    height: 560px;
+    background-color: #eaeaea;
+}
+.footer-service {
+   /* height: 100px;*/
+    border-bottom: 1px solid #dedede;
+}
+.service-inner {
+    /*height: 100px;*/
+  /*  background-color: pink;*/
+    padding: 30px 0;
+}
+.service-inner li {
+    float: left;
+    height: 42px;
+    width: 297px;
+   /* background-color: purple;*/
+}
+.service-unite {
+    width: 225px;
+    height: 42px;
+    margin: 0 auto;
+    position: relative;
+}
+.service-unite h5 {
+    width: 36px;
+    height: 43px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/sprite.footer.png" ) no-repeat 0 -192px;
+    text-indent: -99999px;
+    line-height: 42px;
+}
+.service-unite p {
+    line-height: 42px;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.service-unite .kuai {
+    background-position: -41px -192px;
+}
+.service-unite .hao {
+    background-position: -82px -192px;
+}
+.service-unite .sheng {
+    background-position: -123px -192px;
+}
+.help {
+    height: 180px;
+  /*  background-color: pink;*/
+    padding-top: 20px;
+    border-bottom: 1px solid #dedede;
+}
+.help dl {
+    float: left;
+    width: 195px;
+}
+.help dt {
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    height: 30px;
+}
+.help dd {
+    height: 22px;
+}
+.help dd a{
+    color: #727272;
+    font-size: 12px;
+}
+.help dd a:hover {
+   color: #f10215;
+}
+.help .cover {
+    width: 207px;
+    height: 150px;
+    float: right;
+    background-color: purple;
+    background: url("../images/sprite.footer.png") no-repeat ;
+}
+.cover dt {
+    text-align: center;
+}
+.help .info {
+    width: 175px;
+    height: 50px;
+    color: #727272;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 18px;
+}
+.help .more {
+    text-align: right;
+    margin: 5px 30px 0 0;
+}
+.copyright {
+    padding-top: 15px;
+}
+.links {
+    text-align: center;
+}
+.links a {
+    font-size: 12px;
+    color: #727272;
+}
+.links span {
+    font-size: 12px;
+    color:#ccc;
+    margin: 0 6px;
+}
+.c-info {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 22px;
+    font-style: normal;
+}
+.c-info a {
+    color: #999;
+}
+.c-info span {
+    margin: 0 6px;
+    color:#ccc;
+}
+.tupian {
+    margin: 25px 0;
+    /*background-color: purple;*/
+}
+.tupian a {
+    width: 103px;
+    height: 32px;
+    background-color: pink;
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url("../images/sprite.footer.png") no-repeat;
+}
+.tupian .one {
+    background-position: -205px -111px;
+}
+.tupian .two {
+    background-position: -205px -74px;
+}
+.tupian .three {
+    background-position: -205px -37px;
+}
+.tupian .four {
+    background-position: -205px 0;
+}
+.tupian .five {
+    background-position: 0 -155px;
+}
